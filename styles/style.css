@@ -87,6 +87,7 @@ nav ul li {
 
 .dis-head{
     max-width: 1440px;
+    width: 100%;
     margin: 0px auto;
     margin-top: 50px;
 }
@@ -130,6 +131,7 @@ nav ul li {
     
     background: linear-gradient(50deg, #f14d4d 30%, rgba(13, 13, 26, 0.438) 70%);
     height: 300px;
+
     border-top-right-radius: 50px;
     border-bottom-left-radius: 50px;
 }
@@ -209,58 +211,42 @@ font-size: 35px;
 
 
 @media screen and (max-width:576px){
-    nav{
-        flex-direction: column;
-    }
 
-    .container ul{
-        padding-left: 20px;
-    }
-
-    .section-container{
-        flex-direction: column;
-    }
-
-    .text-section .intro{
-        margin-top: 40px;
- 
-    }
-    .bl-container{
-        flex-direction: column;
-    }
-
-    .middle{
-height: 600px;
-    }
-
-    .bl-container .im-section img{
-        padding-left: 50px;
-    }
-
-    .bl-container .text-sect {
-        padding-left: 50px;
-    }
-
-    .labtop{
-        flex-direction: column;
-    }
-    .labtop  .images img{
-        width: 100%;
-    }
-
-    
-
-    .footer-container{
-        flex-direction: column;
-        height: 650px;
-        align-items: center;
-
-    }
+nav{
+    flex-direction: column;
+    padding: 0px;
 }
 
+.section-container{
+    flex-direction: column;
+    margin-top: 50px;
+}
+.dis-head{
+    margin-top: 150px;
+}
 
+.bl-container{
+    flex-direction: column;
+    margin-top: 70px;
+}
 
+.labtop{
+    flex-direction: column;
+}
 
+.labtop .images img{
+    width: 90%;
+}
+
+.im-section img{
+    width: 90%;
+}
+
+.bl-container .text-sect{
+display: block;
+}
+
+ }
 
 
 
